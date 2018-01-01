@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Bakery Recipes</string>
+    <string name="widget_text">Recipe ingredients will show upon launching the app first
+        and choose a recipe. &quot;Bakery Recipes&quot;</string>
+
+    <string name="step_first_toast">This is the initial recipe step</string>
+    <string name="step_last_toast">This is the last recipe step</string>
+
+    // Recipe layout - strings
+    <string name="rl_name">Name</string>
+    <string name="rl_servings">Servings: </string>
+    //
+
+    <string name="fragment_details_instructions">*Navigate between steps</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spacing">18dp</dimen>
+    <dimen name="design_tab_text_size">14sp</dimen>
+
+    <dimen name="connector_width">8dp</dimen>
+    <dimen name="connector_height">0dp</dimen>
+    
+    <dimen name="overlay_width_height">9dp</dimen>
+
+    <dimen name="joint_width">9dp</dimen>
+    <dimen name="joint_height">8dp</dimen>
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ScrollView
+        style="@android:style/Widget.Holo.ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/baking"
+        android:clipToPadding="false"
+        android:fillViewport="false"
+        android:isScrollContainer="false"
+        android:scrollIndicators="top|bottom"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:scrollbarStyle="insideInset">
+
+        <TextView
+            android:id="@+id/ingredients_view"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:layout_gravity="right"
+            android:paddingRight="14dp"
+            android:textColor="#E0E0E0"
+            android:textSize="16sp" />
+
+    </ScrollView>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/steps_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

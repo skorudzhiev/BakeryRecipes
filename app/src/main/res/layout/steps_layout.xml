@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/step"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:clickable="true"
+    android:foreground="?android:selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/connector_top"
+                android:layout_width="@dimen/connector_width"
+                android:layout_height="@dimen/connector_height"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/patternBlend" />
+
+            <View
+                android:layout_width="@dimen/overlay_width_height"
+                android:layout_height="@dimen/overlay_width_height"
+                android:background="@color/patternMain" />
+
+            <View
+                android:id="@+id/connector_bottom"
+                android:layout_width="@dimen/connector_width"
+                android:layout_height="@dimen/connector_height"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/patternBlend" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/joint_width"
+            android:layout_height="@dimen/joint_height"
+            android:layout_gravity="center"
+            android:background="@color/patternBlend">
+
+        </View>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="@dimen/connector_width"
+                android:layout_height="@dimen/connector_height"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/patternBlend" />
+
+            <View
+                android:layout_width="@dimen/overlay_width_height"
+                android:layout_height="@dimen/overlay_width_height"
+                android:background="@color/patternMain" />
+
+            <View
+                android:layout_width="@dimen/connector_width"
+                android:layout_height="@dimen/connector_height"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/patternBlend" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/joint_width"
+            android:layout_height="@dimen/joint_height"
+            android:layout_gravity="center"
+            android:background="@color/patternBlend">
+
+        </View>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="@dimen/connector_width"
+                android:layout_height="@dimen/connector_height"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/patternBlend" />
+
+            <View
+                android:layout_width="@dimen/overlay_width_height"
+                android:layout_height="@dimen/overlay_width_height"
+                android:background="@color/patternMain" />
+
+            <View
+                android:layout_width="@dimen/connector_width"
+                android:layout_height="@dimen/connector_height"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/patternBlend" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/step_short_description"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="16dp"
+        android:padding="4dp"
+        android:textSize="16sp"
+        tools:text="Place the butter on the knife" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="end">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/connector_top"
+                android:layout_width="@dimen/connector_width"
+                android:layout_height="@dimen/connector_height"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/patternBlend"
+                tools:ignore="DuplicateIds" />
+
+            <View
+                android:layout_width="@dimen/overlay_width_height"
+                android:layout_height="@dimen/overlay_width_height"
+                android:background="@color/patternMain" />
+
+            <View
+                android:id="@+id/connector_bottom"
+                android:layout_width="@dimen/connector_width"
+                android:layout_height="@dimen/connector_height"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/patternBlend"
+                tools:ignore="DuplicateIds" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/joint_width"
+            android:layout_height="@dimen/joint_height"
+            android:layout_gravity="center"
+            android:background="@color/patternBlend">
+
+        </View>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="@dimen/connector_width"
+                android:layout_height="@dimen/connector_height"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/patternBlend" />
+
+            <View
+                android:layout_width="@dimen/overlay_width_height"
+                android:layout_height="@dimen/overlay_width_height"
+                android:background="@color/patternMain" />
+
+            <View
+                android:layout_width="@dimen/connector_width"
+                android:layout_height="@dimen/connector_height"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/patternBlend" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/joint_width"
+            android:layout_height="@dimen/joint_height"
+            android:layout_gravity="center"
+            android:background="@color/patternBlend">
+
+        </View>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="@dimen/connector_width"
+                android:layout_height="@dimen/connector_height"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/patternBlend" />
+
+            <View
+                android:layout_width="@dimen/overlay_width_height"
+                android:layout_height="@dimen/overlay_width_height"
+                android:background="@color/patternMain" />
+
+            <View
+                android:layout_width="@dimen/connector_width"
+                android:layout_height="@dimen/connector_height"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/patternBlend" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
